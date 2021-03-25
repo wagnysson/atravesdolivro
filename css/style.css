@@ -11,7 +11,20 @@ body {
 }
 
 @media (max-width:480px) {
+    .menu {
+        position: relative;
+        max-width: 100%;
+        height: 218px;
+        overflow: hidden;
+    }
     .logo {
-        width: 1325px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        height: 100%;
+        width: auto;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
     }
 }
