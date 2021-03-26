@@ -27,7 +27,7 @@ body {
     width: 39%;
     display: grid;
     padding: 1% 2%;
-    grid-template-columns: 35% 43% 25%;
+    grid-template-columns: 33% 45% 25%;
     grid-auto-rows: 1rem;
     /* border: 1px solid black; */
 }
