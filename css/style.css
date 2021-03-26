@@ -13,7 +13,7 @@ body {
 
 .main {
     position: relative;
-    top: 2%;
+    top: 5%;
     left: 5%;
     right: 5%;
 }
@@ -26,11 +26,12 @@ body {
 }
 
 .more {
-    width: 15%;
+    width: 25%;
     height: 1000px;
     background-color: rgb(135, 158, 228);
     position: absolute;
     right: 0%;
+    left: 5%;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
