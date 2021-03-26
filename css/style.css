@@ -24,10 +24,10 @@ body {
 }
 
 .itemmenul {
-    width: 40%;
+    width: 39%;
     display: grid;
     padding: 1% 2%;
-    grid-template-columns: 37% 43% 25%;
+    grid-template-columns: 35% 43% 25%;
     grid-auto-rows: 1rem;
     /* border: 1px solid black; */
 }
@@ -38,7 +38,7 @@ body {
 }
 
 .itemmenur {
-    width: 40%;
+    width: 39%;
     display: grid;
     padding: 1% 2%;
     grid-template-columns: repeat(3, 1fr);
