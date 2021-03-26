@@ -33,8 +33,9 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 .itemmenu {
     position: absolute;
+    top: 0%;
     top: 20%;
-    font-size: 0.001%;
+    font-size: 0.01%;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
 }
