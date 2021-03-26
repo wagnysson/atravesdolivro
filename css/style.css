@@ -12,7 +12,7 @@ body {
 
 .main {
     width: 90%;
-    display: flex;
+    display: inline-block;
 }
 
 .content {
