@@ -18,7 +18,7 @@ body {
     top: 40%;
     font-family: 'EB Garamond', serif;
     font-weight: bold;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
 }
 
@@ -28,7 +28,7 @@ body {
     padding: 1% 1%;
     grid-template-columns: 34% 40% 25%;
     grid-auto-rows: 1rem;
-    border: 1px solid black;
+    /*    border: 1px solid black; */
 }
 
 .itemmenul a {
@@ -45,7 +45,7 @@ body {
     grid-gap: 10% 0%;
     position: absolute;
     right: 0%;
-    border: 1px solid black;
+    /*   border: 1px solid black; */
     text-align: right;
 }
 
