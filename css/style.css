@@ -26,6 +26,14 @@ body {
     background-color: rgb(135, 158, 228);
 }
 
+.itemmenu {
+    font-size: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 50% 10%;
+}
+
 @media (max-width:768px) {
     .menu {
         position: relative;
