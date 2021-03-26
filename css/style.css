@@ -13,26 +13,28 @@ body {
 
 .main {
     width: 90%;
-    display: inline-block;
+    position: relative;
 }
 
 .content {
     width: 60%;
     height: 1000px;
     background-color: rgb(135, 158, 228);
+    position: absolute;
 }
 
 .more {
     width: 15%;
     height: 1000px;
     background-color: rgb(135, 158, 228);
+    position: absolute;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 .itemmenu {
     position: absolute;
-    top: 45%;
-    font-size: 0, 3%;
+    top: 20%;
+    font-size: 0.001%;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     text-decoration: none;
