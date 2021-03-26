@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(218, 221, 230);
+    background-color: rgb(240, 211, 217);
     position: relative;
     margin: 0px;
 }
@@ -11,11 +11,11 @@ body {
     position: static;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 .itemmenu {
     position: absolute;
     top: 40%;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'EB Garamond', serif;
     font-weight: bold;
 }
 
@@ -35,7 +35,6 @@ body {
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 0% 5%;
     position: relative;
-    right: 5%;
 }
 
 .itemmenur a {
@@ -52,7 +51,7 @@ main {
 .content {
     width: 64%;
     height: 1000px;
-    background-color: rgb(135, 158, 228);
+    background-color: white;
     position: absolute;
     border-radius: 1.4%;
 }
@@ -60,7 +59,7 @@ main {
 .more {
     width: 34%;
     height: 1000px;
-    background-color: rgb(135, 158, 228);
+    background-color: white;
     position: absolute;
     top: 0%;
     right: 0%;
