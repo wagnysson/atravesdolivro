@@ -37,7 +37,11 @@ body {
     font-size: 0.001%;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
+}
+
+.itemmenu a {
     text-decoration: none;
+    color: white;
 }
 
 @media (max-width:768px) {
