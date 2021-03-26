@@ -29,11 +29,12 @@ body {
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 .itemmenu {
-    font-size: 5rem;
+    position: relative;
+    top: 45%;
+    font-size: 2rem;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
-    text-align: center;
-    margin: 50% 10%;
+    text-decoration: none;
 }
 
 @media (max-width:768px) {
