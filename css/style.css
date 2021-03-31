@@ -96,4 +96,13 @@ main {
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
     }
+    .itemmenur {
+        display: none;
+    }
+    .itemmenul {
+        display: none;
+    }
+    .more {
+        display: none;
+    }
 }
