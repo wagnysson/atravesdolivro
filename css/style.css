@@ -79,7 +79,7 @@ main {
     border-radius: 1.5%;
 }
 
-@media (max-width:768px) {
+@media (max-width: 850px) {
     .menu {
         position: relative;
         max-width: 100%;
@@ -104,6 +104,7 @@ main {
     }
     .content {
         width: 100%;
+        margin-top: 1.5%;
     }
     .more {
         display: none;
