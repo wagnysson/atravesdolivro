@@ -102,6 +102,9 @@ main {
     .itemmenul {
         display: none;
     }
+    .content {
+        width: 100%;
+    }
     .more {
         display: none;
     }
