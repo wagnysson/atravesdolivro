@@ -190,7 +190,7 @@ main {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.headcel {
+.logoc {
     display: none;
 }
 
@@ -207,11 +207,20 @@ main {
         max-width: 100%;
         height: 50px;
         overflow: hidden;
+        display: flex;
+        flex-direction: column;
     }
     .logoc {
+        display: block;
         position: absolute;
         width: 100%;
         height: 50px;
+    }
+    .fundomenu {
+        background-color: rgb(246, 96, 126);
+        width: 100%;
+        height: 145px;
+        display: none;
     }
     .sandwich {
         display: block;
@@ -224,6 +233,27 @@ main {
     }
     .itemmenu {
         display: none;
+        flex-direction: column;
+        z-index: 10;
+    }
+    .itemmenu a {
+        color: white;
+    }
+    .menul {
+        display: none;
+        flex-direction: column;
+        margin-top: 1%;
+    }
+    .menur {
+        display: none;
+        flex-direction: column;
+        margin-top: 1%;
+    }
+    .itemr {
+        margin-bottom: 2px;
+    }
+    .iteml {
+        margin-bottom: 2px;
     }
     .content {
         width: 93%;
