@@ -117,7 +117,7 @@ main {
     position: absolute;
     margin-top: 17%;
     margin-left: 5%;
-    padding-top: 17%;
+    padding-top: 12%;
     display: grid;
     grid-template-columns: 30% 30% 30%;
     justify-content: space-evenly;
@@ -135,6 +135,11 @@ main {
 
 .bold {
     font-weight: bolder;
+}
+
+.popular a {
+    text-decoration: none;
+    color: rgb(224, 89, 89);
 }
 
 @media (max-width: 1000px) {
