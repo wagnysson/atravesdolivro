@@ -70,7 +70,7 @@ main {
     background-color: white;
     position: absolute;
     border-radius: 1.4%;
-    margin-left: 1.4%;
+    margin: 0% 1.4%;
     padding: 2%;
     display: flex;
     flex-direction: column;
@@ -190,29 +190,43 @@ main {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.headcel {
+    display: none;
+}
+
+.sandwich {
+    display: none;
+}
+
 @media (max-width: 1000px) {
+    .logo {
+        display: none;
+    }
     .menu {
         position: relative;
         max-width: 100%;
-        height: 218px;
+        height: 50px;
         overflow: hidden;
     }
-    .logo {
+    .logoc {
         position: absolute;
-        left: 50%;
-        top: 50%;
-        height: 100%;
-        width: auto;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 50px;
+    }
+    .sandwich {
+        display: block;
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        right: 0px;
+        top: 0px;
+        margin: 10px 12px 10px 0;
     }
     .itemmenu {
         display: none;
     }
     .content {
-        width: 100%;
-        margin: 1.5%;
+        width: 93%;
     }
     .more {
         display: none;
