@@ -183,7 +183,7 @@ main {
 
 .titulocontato {
     position: absolute;
-    top: 1%;
+    top: 0.8%;
     left: 34%;
     font-size: 48px;
     color: white;
@@ -195,6 +195,10 @@ main {
 }
 
 .sandwich {
+    display: none;
+}
+
+.fundomenu {
     display: none;
 }
 
@@ -263,6 +267,7 @@ main {
     }
     .formcontato {
         width: 100%;
+        margin-top: 20%;
     }
     .formcontato input[type=text] {
         width: 85%;
@@ -276,7 +281,7 @@ main {
     .titulocontato {
         font-size: 28px;
         top: 0.1%;
-        left: 31%;
+        left: 32%;
     }
     .contatonome {
         font-size: 25px;
