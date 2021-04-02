@@ -12,7 +12,6 @@ body {
     position: static;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 .itemmenu {
     width: 100%;
     position: absolute;
@@ -83,27 +82,59 @@ main {
     right: 0%;
     border-radius: 1.5%;
     margin-right: 1.5%;
+    display: flex;
+    flex-direction: column;
 }
 
 .popular {
     position: absolute;
     width: 90%;
     margin: 5% 5%;
-    display: grid;
-    grid-template-rows: 35px 200px;
+    /* border: 2px solid black; */
+}
+
+.laco {
+    max-width: 100%;
+    position: absolute;
+    z-index: 1;
 }
 
 .titulopop {
-    background: rgb(238, 156, 156);
     font-family: 'Monaco', monospace;
-    padding: 1% 38%;
     font-weight: bold;
-    color: white;
-    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    position: absolute;
+    margin-top: 3.8%;
+    left: 33%;
+    z-index: 2;
 }
 
 .contentpop {
-    background: rgb(255, 0, 119);
+    background: rgb(255, 222, 232);
+    height: 500px;
+    width: 90%;
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 5%;
+    padding-top: 17%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.contentpop img {
+    height: 70px;
+}
+
+.itempop1 {
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bold {
+    font-weight: bolder;
 }
 
 @media (max-width: 1000px) {
