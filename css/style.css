@@ -348,4 +348,13 @@ main {
     .text {
         left: 175px;
     }
+    .wag {
+        vertical-align: middle;
+    }
+    .deb {
+        vertical-align: middle;
+    }
+    .anac {
+        vertical-align: middle;
+    }
 }
