@@ -207,7 +207,9 @@ main {
 .sobrenos {
     color: rgb(102, 102, 102);
     margin-left: 2.1%;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
+    text-align: justify;
+    margin-right: 5%;
 }
 
 .fundomenu {
@@ -342,5 +344,8 @@ main {
     }
     .contatomsg {
         font-size: 25px;
+    }
+    .text {
+        left: 175px;
     }
 }
