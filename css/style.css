@@ -202,6 +202,7 @@ main {
 .sobre {
     color: rgb(224, 89, 89);
     margin-left: 2.1%;
+    font-size: 40px;
 }
 
 .sobrenos {
@@ -210,6 +211,7 @@ main {
     margin-bottom: 8%;
     text-align: justify;
     margin-right: 5%;
+    margin-top: 0px;
 }
 
 .fundomenu {
@@ -256,6 +258,68 @@ main {
 .sobre1 {
     color: rgb(224, 89, 89);
     margin-left: 2%;
+}
+
+.daisy {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.apresenta {
+    display: flex;
+}
+
+.daisyfoto {
+    height: 300px;
+}
+
+.infolivro {
+    margin-left: 5%;
+    height: 300px;
+    /* border: 1px solid black; */
+}
+
+.letra {
+    color: rgb(224, 89, 89);
+    /* border: 1px solid black; */
+    margin-bottom: 4px;
+}
+
+.resenha {
+    color: rgb(82, 82, 82);
+    margin-top: 1%;
+    text-align: justify;
+}
+
+.livro1 {
+    /* border: 1px solid rgb(224, 89, 89); */
+    border-radius: 2%;
+    width: 30%;
+    margin-right: 4%;
+}
+
+.livro1 a {
+    text-decoration: none;
+    color: rgb(224, 89, 89);
+    text-align: center;
+}
+
+.livro2 {
+    margin: 0% 8%;
+    height: 300px;
+}
+
+.ultres {
+    color: rgb(224, 89, 89);
+    font-size: 40px;
+}
+
+.column1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+    margin-top: 3%;
 }
 
 @media (max-width: 1000px) {
