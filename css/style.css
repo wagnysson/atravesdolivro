@@ -322,6 +322,19 @@ main {
     margin-top: 3%;
 }
 
+.links {
+    margin-left: 2%;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.links a:hover {
+    text-shadow: 1px 1px 10px rgb(224, 89, 89);
+}
+
 @media (max-width: 1000px) {
     .logo {
         display: none;
