@@ -315,7 +315,7 @@ main {
     font-size: 40px;
 }
 
-.column1 {
+.row1 {
     display: flex;
     flex-direction: row;
     margin-bottom: 2%;
@@ -381,6 +381,7 @@ main {
     }
     .content {
         width: 93%;
+        height: auto;
     }
     .more {
         display: none;
@@ -415,5 +416,27 @@ main {
     }
     .sobre1 {
         margin-top: 0px;
+    }
+    .ultres {
+        font-size: 27px;
+    }
+    .row1 {
+        height: 30%;
+    }
+    .livro1 {
+        height: 100%;
+        /* border: 1px solid black; */
+        text-align: center;
+    }
+    .livro2 {
+        height: 120px;
+        margin: 0% 1.5%;
+    }
+    .apresenta {
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .letra {
+        font-size: 1rem;
     }
 }
