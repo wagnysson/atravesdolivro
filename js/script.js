@@ -11,7 +11,7 @@ sandwich.addEventListener('click', function() {
         menupc.style.display = 'flex'
         menul.style.display = 'flex'
         menur.style.display = 'flex'
-        menu.style.height = '150px'
+        menu.style.height = '230px'
         fundomenu.style.display = 'block'
     } else {
         menupc.style.display = ''

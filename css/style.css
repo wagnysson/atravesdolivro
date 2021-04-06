@@ -357,7 +357,7 @@ main {
     .fundomenu {
         background-color: rgb(246, 96, 126);
         width: 100%;
-        height: 145px;
+        height: 220px;
         display: none;
     }
     .sandwich {
@@ -373,6 +373,10 @@ main {
         display: none;
         flex-direction: column;
         z-index: 10;
+        height: 150px;
+        position: absolute;
+        top: 55px;
+        padding-left: 40%;
     }
     .itemmenu a {
         color: white;
@@ -380,12 +384,15 @@ main {
     .menul {
         display: none;
         flex-direction: column;
-        margin-top: 1%;
+        position: relative;
     }
     .menur {
         display: none;
         flex-direction: column;
-        margin-top: 1%;
+        position: relative;
+        z-index: 10;
+        right: 7.3%;
+        bottom: 9%;
     }
     .itemr {
         margin-bottom: 2px;
