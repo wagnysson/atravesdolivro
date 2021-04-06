@@ -376,7 +376,7 @@ main {
         height: 150px;
         position: absolute;
         top: 55px;
-        padding-left: 40%;
+        padding-left: 30%;
     }
     .itemmenu a {
         color: white;
@@ -391,7 +391,7 @@ main {
         flex-direction: column;
         position: relative;
         z-index: 10;
-        right: 7.3%;
+        right: 7.5%;
         bottom: 9%;
     }
     .itemr {
