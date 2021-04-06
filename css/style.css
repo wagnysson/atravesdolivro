@@ -394,14 +394,16 @@ main {
         display: none;
         flex-direction: column;
         position: relative;
+        text-align: center;
     }
     .menur {
         display: none;
         flex-direction: column;
         position: relative;
         z-index: 10;
-        right: 7.5%;
+        right: 13%;
         bottom: 9%;
+        text-align: center;
     }
     .itemr {
         margin-bottom: 2px;
