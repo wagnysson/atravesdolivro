@@ -185,8 +185,10 @@ main {
 
 .titulocontato {
     position: absolute;
-    top: 0.8%;
-    left: 34%;
+    top: 12%;
+    left: 15%;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
     font-size: 48px;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -447,8 +449,11 @@ main {
     }
     .titulocontato {
         font-size: 28px;
-        top: 0.1%;
-        left: 32%;
+        position: absolute;
+        top: 12%;
+        left: 20%;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
     }
     .contatonome {
         font-size: 25px;
