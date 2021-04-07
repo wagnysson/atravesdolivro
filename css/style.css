@@ -227,6 +227,7 @@ main {
     display: flex;
     margin-bottom: 8%;
     color: rgb(102, 102, 102);
+    border: 1px solid black;
 }
 
 .debora {
@@ -235,6 +236,7 @@ main {
     display: flex;
     margin-bottom: 8%;
     color: rgb(102, 102, 102);
+    border: 1px solid black;
 }
 
 .wag {
@@ -242,6 +244,7 @@ main {
     height: auto;
     display: flex;
     color: rgb(102, 102, 102);
+    border: 1px solid black;
 }
 
 .fotoc {
@@ -429,7 +432,7 @@ main {
     }
     .content {
         width: 93%;
-        height: auto;
+        height: 1500px;
     }
     .more {
         display: none;
@@ -496,8 +499,20 @@ main {
     }
     .fotoc {
         display: block;
-        max-height: 100%;
+        max-height: 150px;
         border-radius: 10%;
         border: 2px solid rgb(180, 67, 67);
+    }
+    .anac {
+        height: 200px;
+        /* border: 1px solid black; */
+    }
+    .debora {
+        height: 200px;
+        /* border: 1px solid black; */
+    }
+    .wag {
+        height: 310px;
+        /* border: 1px solid black; */
     }
 }

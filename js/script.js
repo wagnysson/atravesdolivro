@@ -21,3 +21,22 @@ sandwich.addEventListener('click', function() {
         fundomenu.style.display = ''
     }
 })
+
+// const tamanhodesc1 = document.querySelector('.anac')
+// const tamanhodesc2 = document.querySelector('.debora')
+// const tamanhodesc3 = document.querySelector('.wag')
+// const tamanhopanac = document.querySelector('.anac p.text')
+// const tamanhopdeb = document.querySelector('.debora p.text')
+// const tamanhopwag = document.querySelector('.wag p.text')
+
+// if (window.matchMedia("(max-width:1000px)").matches) {
+//     if (tamanhodesc1.style.height != tamanhopanac.style.height) {
+//         tamanhodesc1.style.height = tamanhopanac.style.height
+//     }
+// }
+
+// if (window.matchMedia("(max-width:1000px)").matches) {
+//     if (tamanhodesc2.style.height != tamanhopdeb.style.height) {
+//         tamanhodesc2.style.height = tamanhopdeb.style.height
+//     }
+// }
